@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ranias Sweets — thoughtfully made cakes and sweet treats, created to bring your vision to life.">
+  <title>Ranias Sweets | Sweetness, Made Personal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Ranias Sweets home">ranias <span>sweets.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#gallery">The collection</a>
+      <a class="nav-cta" href="#contact">Let’s make something sweet</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A LITTLE SOMETHING SWEET</p>
+        <h1>Bringing creative visions<br>to <em>edible treats.</em></h1>
+        <p class="hero-intro">From the first idea to the very last bite, every cake and sweet is made to feel a little more personal, a little more special, and completely yours.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#gallery">Explore the sweets <span>↗</span></a>
+          <a class="text-link" href="#contact">Have an idea? Let’s talk</a>
+        </div>
+        <div class="hero-note"><span class="tiny-flower">✳</span><span>Made with care.<br>Remembered for the sweetness.</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-frame">
+          <img src="images/IMG_8929.jpg" alt="Decorative cake topped with chocolate and fresh strawberries">
+          <div class="photo-tag"><span>01 / 32</span><span>Made for your moment</span></div>
+        </div>
+        <span class="hero-stamp">a little<br><i>sweetness</i><br>goes a long way</span>
+        <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+      </div>
+      <div class="hero-bottom"><span>CAKES · CUPCAKES · SWEET TREATS</span><span>SCROLL TO INDULGE ↓</span></div>
+    </section>
+
+    <section class="intro-strip" id="about">
+      <span class="strip-star">✳</span>
+      <p>Not just dessert. <em>A piece of your celebration.</em></p>
+      <span class="strip-star">✳</span>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE SWEET COLLECTION</p>
+          <h2>A little look at<br><em>some delicious creations.</em></h2>
+        </div>
+        <p class="section-blurb">Custom cakes and sweet treats made to bring your ideas to life. Find a favorite, or let it spark something new.</p>
+      </div>
+
+      <div class="gallery-toolbar">
+        <div class="filter-list" role="group" aria-label="Filter desserts">
+          <button class="filter active" data-filter="all">All the sweets <span>30</span></button>
+          <button class="filter" data-filter="cakes">Cakes</button>
+          <button class="filter" data-filter="treats">Little Treats</button>
+        </div>
+        <p><span class="live-dot"></span> A collection made with love</p>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid" aria-live="polite"></div>
+      <div class="see-more-wrap"><button class="button button-dark see-more-button" id="seeMoreButton" type="button">See more sweet creations <span>＋</span></button></div>
+      <div class="gallery-footnote"><span>✳</span> Every sweet has a story. Let’s make yours.</div>
+    </section>
+
+    <section class="quote-section">
+      <span class="quote-mark">“</span>
+      <p>Your idea, your occasion,<br><em>your kind of sweet.</em></p>
+      <span class="quote-caption">A little creativity makes every bite special.</span>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-decoration">✳</div>
+      <p class="eyebrow">LET’S DREAM UP DESSERT</p>
+      <h2>Have something<br><em>sweet in mind?</em></h2>
+      <p>Tell me what you’re celebrating, what you’re imagining, or simply what you’re craving. Let’s turn your idea into something delicious.</p>
+      <a class="button button-light" href="mailto:raniarafati@gmail.com">Let’s create something sweet<span>↗</span></a>
+      <small>A personal baking business, made with care.</small>
+    </section>
+  </main>
+
+  <footer>
+    <a class="wordmark" href="#home">ranias <span>sweets.</span></a>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close image viewer">×</button>
+    <button class="lightbox-arrow prev" aria-label="Previous image">‹</button>
+    <div class="lightbox-content">
+      <img id="lightboxImage" src="" alt="">
+      <div class="lightbox-caption"><span id="lightboxTitle"></span><span id="lightboxCount"></span></div>
+    </div>
+    <button class="lightbox-arrow next" aria-label="Next image">›</button>
+    <div class="timer-track"><span id="timerProgress"></span></div>
+    <p class="lightbox-hint">Images advance every 10 seconds · use arrows to browse</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
