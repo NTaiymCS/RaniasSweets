@@ -20,6 +20,8 @@ const featuredDesserts = [
   {file:'IMG_8916.jpg',title:'Black & White Charm',category:'cakes'},
   {file:'IMG_8890.jpg',title:'Blue Birthday Wishes',category:'cakes'},
   {file:'IMG_8932.jpg',title:'A Sweet Little Spread',category:'cakes'},
+  {file:'image1.jpeg',title:'Graduation Cake',category:'cakes'},
+  {file:'image0.jpeg',title:'Graduation Cake',category:'cakes'},
   {file:'IMG_8907.jpg',title:'Chocolate Lace',category:'cakes'},
   {file:'IMG_8892.jpg',title:'Golden Hour Cake',category:'cakes'},
   {file:'IMG_8918.jpg',title:'Petal-Soft Treats',category:'treats'},
